@@ -1,0 +1,193 @@
+/* CSS Dosyası */
+
+/* Boşlukları sıfırla */
+
+*{
+    margin: 0px;
+    padding: 0pc;
+}
+
+body{
+    background-image: url(tribun.png);
+    
+}
+
+#sayfa{
+    width: 900px;
+    height: 960px;
+    border-style:solid;
+    background-image: url(platform2.png);
+    border-width: 1px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+/*Banner*/
+#banner{
+    width: 898px;
+    height:100px;
+    border-style: inherit;
+    border-width: 1px;
+    background-image: url(banner.png);
+    border-radius: 10px;
+    
+    margin: auto;
+    
+
+}
+/*Logo*/
+#logo{
+    width: 96px;
+    height:96px;
+    border-style:none;
+    border-width: 1px;
+    background-color: rgb(236, 203, 203);
+    position: relative;
+    top: 1px;
+    left: 1px;
+    float: left;
+    border-radius: 10px;
+
+
+}
+
+/*Yazı*/
+#yazı{
+    width: 600px;
+    height: 80px;
+    border-style: none;
+    border-width: 1px;
+    
+    position: relative;
+    top: -85px;
+    left: 100px;
+    
+}
+
+/*Sosyal medya ikonları*/
+#sosyal{
+    width: 180px;
+    height: 40px;
+    border-style:none;
+    border-width: 1px;
+    background-color: rgb(101, 149, 163);
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 1px;
+    
+
+}
+
+
+/*Anamenü*/
+#anamenu{
+    width: 900px;
+    height: 90px;
+    
+    
+}
+    #anamenu ul{
+        list-style-type: none;
+    }
+    
+    #anamenu ul li{
+        float: left;
+        position: relative;
+        left: 140px;
+    }
+    #anamenu a{
+        position: relative;
+        top: -35px;
+        right: 170px;
+        color: aliceblue;
+        font-style: oblique;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+    #anamenu ul a:hover{
+        color: rgb(255, 127, 127);
+    }
+
+
+/* İçerik ve yan menü kodları */
+#icerik{
+    width: 900px;
+    height:700px;
+    border-style:inherit;
+    border-width: 1px;
+    
+    
+    
+}
+
+#yanmenu{
+    width: 296px;
+    height:350px;
+    border-style:inherit;
+    border-width: 1px;
+    
+    float: right;
+}
+
+#discord{
+    float: right;
+    position: relative;
+    top: 25px;
+    left: 165px;
+    
+}
+
+#altmenu h1{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 8px;
+    
+}
+
+#altmenu p{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#icerik h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+}
+
+#icerik p{
+    position: relative;
+    left: 3px;
+    top: 10px;
+    color: rgb(0, 0, 0);
+}
+#icerik ul li{
+    position: relative;
+    right: -40px;
+    color: rgb(0, 0, 0);
+}
+
+#yanmenu2{
+    width: 296px;
+    height:348px;
+    border-style:inherit;
+    border-width: 1px;
+    
+    float: right;
+}
+
+#yanmenu h1,p{
+    text-align: center;
+}
+
+#yanmenu2 h1,p{
+    text-align: center;
+}
